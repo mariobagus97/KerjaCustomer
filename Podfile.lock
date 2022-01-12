@@ -1,0 +1,212 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AnyCodable-FlightSchool (0.2.3)
+  - AvailableHapticFeedback (1.0.2)
+  - BottomPopup (0.5.5)
+  - Cosmos (20.0.1)
+  - DropDown (2.3.13)
+  - FlexibleSteppedProgressBar (0.7.2)
+  - FloatingPanel (1.7.6)
+  - FSCalendar (2.8.2)
+  - FSPagerView (0.8.3)
+  - ImageSlideshow (1.9.2):
+    - ImageSlideshow/Core (= 1.9.2)
+  - ImageSlideshow/Core (1.9.2)
+  - Instructions (2.0.1)
+  - IQKeyboardManagerSwift (6.5.9)
+  - KeychainAccess (4.2.2)
+  - Kingfisher (5.10.1):
+    - Kingfisher/Core (= 5.10.1)
+  - Kingfisher/Core (5.10.1)
+  - MaterialComponents/AnimationTiming (124.2.0)
+  - MaterialComponents/Availability (124.2.0)
+  - MaterialComponents/private/Math (124.2.0)
+  - "MaterialComponents/private/TextControlsPrivate+BaseStyle (124.2.0)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - "MaterialComponents/private/TextControlsPrivate+OutlinedStyle (124.2.0)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - "MaterialComponents/private/TextControlsPrivate+Shared (124.2.0)":
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Math
+    - "MaterialComponents/TextControls+Enums"
+  - "MaterialComponents/private/TextControlsPrivate+TextFields (124.2.0)":
+    - MaterialComponents/private/Math
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+  - "MaterialComponents/TextControls+BaseTextAreas (124.2.0)":
+    - "MaterialComponents/private/TextControlsPrivate+BaseStyle"
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+    - MDFInternationalization
+  - "MaterialComponents/TextControls+BaseTextFields (124.2.0)":
+    - "MaterialComponents/private/TextControlsPrivate+BaseStyle"
+    - "MaterialComponents/private/TextControlsPrivate+Shared"
+    - "MaterialComponents/private/TextControlsPrivate+TextFields"
+    - MDFInternationalization
+  - "MaterialComponents/TextControls+Enums (124.2.0)"
+  - "MaterialComponents/TextControls+OutlinedTextAreas (124.2.0)":
+    - MaterialComponents/Availability
+    - "MaterialComponents/private/TextControlsPrivate+OutlinedStyle"
+    - "MaterialComponents/TextControls+BaseTextAreas"
+  - "MaterialComponents/TextControls+OutlinedTextFields (124.2.0)":
+    - MaterialComponents/Availability
+    - "MaterialComponents/private/TextControlsPrivate+OutlinedStyle"
+    - "MaterialComponents/TextControls+BaseTextFields"
+  - MDFInternationalization (3.0.0)
+  - MultiSlider (1.11.2):
+    - AvailableHapticFeedback
+    - SweeterSwift
+  - netfox (1.20.0)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - PanModal (1.2.7)
+  - Parchment (2.4.0)
+  - Realm (5.5.1):
+    - Realm/Headers (= 5.5.1)
+  - Realm/Headers (5.5.1)
+  - RealmSwift (5.5.1):
+    - Realm (= 5.5.1)
+  - RxBlocking (5.1.3):
+    - RxSwift (~> 5)
+  - RxCocoa (5.1.3):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.3):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.3)
+  - SkeletonView (1.8.2)
+  - Starscream (3.1.1)
+  - SweeterSwift (1.1.4)
+  - SwiftLint (0.43.1)
+  - Swinject (2.8.0)
+  - Toast-Swift (5.0.1)
+  - TOInsetGroupedTableView (1.1.0)
+  - URLEmbeddedView (0.18.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.9.1)
+  - AnyCodable-FlightSchool (~> 0.2.2)
+  - BottomPopup (~> 0.5.5)
+  - Cosmos (~> 20.0)
+  - DropDown (= 2.3.13)
+  - FlexibleSteppedProgressBar
+  - FloatingPanel (~> 1.7.6)
+  - FSCalendar (~> 2.8.2)
+  - FSPagerView (= 0.8.3)
+  - ImageSlideshow (~> 1.9.2)
+  - Instructions (~> 2.0.0)
+  - IQKeyboardManagerSwift (~> 6.5.6)
+  - KeychainAccess
+  - Kingfisher (~> 5.10.0)
+  - "MaterialComponents/TextControls+OutlinedTextAreas (~> 124.2.0)"
+  - "MaterialComponents/TextControls+OutlinedTextFields (~> 124.2.0)"
+  - MultiSlider (~> 1.11.2)
+  - netfox
+  - NVActivityIndicatorView (~> 4.8.0)
+  - PanModal (~> 1.2.7)
+  - Parchment (~> 2.4.0)
+  - RealmSwift (~> 5.5.1)
+  - RxBlocking (~> 5.1.3)
+  - RxCocoa (~> 5.1.3)
+  - RxSwift (~> 5.1.3)
+  - SkeletonView (from `https://github.com/Juanpe/SkeletonView`, tag `1.8.2`)
+  - Starscream (= 3.1.1)
+  - SwiftLint (= 0.43.1)
+  - Swinject (= 2.8.0)
+  - Toast-Swift (~> 5.0.0)
+  - TOInsetGroupedTableView
+  - URLEmbeddedView
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AnyCodable-FlightSchool
+    - AvailableHapticFeedback
+    - BottomPopup
+    - Cosmos
+    - DropDown
+    - FlexibleSteppedProgressBar
+    - FloatingPanel
+    - FSCalendar
+    - FSPagerView
+    - ImageSlideshow
+    - Instructions
+    - IQKeyboardManagerSwift
+    - KeychainAccess
+    - Kingfisher
+    - MaterialComponents
+    - MDFInternationalization
+    - MultiSlider
+    - netfox
+    - NVActivityIndicatorView
+    - PanModal
+    - Parchment
+    - Realm
+    - RealmSwift
+    - RxBlocking
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - Starscream
+    - SweeterSwift
+    - SwiftLint
+    - Swinject
+    - Toast-Swift
+    - TOInsetGroupedTableView
+    - URLEmbeddedView
+
+EXTERNAL SOURCES:
+  SkeletonView:
+    :git: https://github.com/Juanpe/SkeletonView
+    :tag: 1.8.2
+
+CHECKOUT OPTIONS:
+  SkeletonView:
+    :git: https://github.com/Juanpe/SkeletonView
+    :tag: 1.8.2
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AnyCodable-FlightSchool: cf53737f4bd1d9187cea453679734506e478fff3
+  AvailableHapticFeedback: 9b21b9f6d3e4566015988b5de35b40abefe6c09a
+  BottomPopup: c63feed938e7bed2894736d4a07b84cd1f608003
+  Cosmos: b47fddf2102bb48580cd3025d9ce0a5c658a65da
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  FlexibleSteppedProgressBar: 6a781cfed749bf59c69813a8706aa397c342ab5c
+  FloatingPanel: 9016eac88f21ca9fce53f5709e1f49485c0c355e
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  ImageSlideshow: be305b54eaf2b2cfc7a7141c7c734605d44dc07d
+  Instructions: dd428e3776fcdcec18bf4242b9d3fb2d1cbd6cc9
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  Kingfisher: eb36b7dfcc78d60877051c92c119a2865972961a
+  MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
+  MDFInternationalization: d697c55307816222a55685c4ccb1044ffb030c12
+  MultiSlider: 944d00877d371bbb5ce0a512fec517de87958775
+  netfox: 6b5c9724304b0cd99ca8515ac732a9f710e4ea5f
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  PanModal: 3e16ead1a907fb06f4df3f13492fd00149fa4974
+  Parchment: 002785473861582385db5c6725165353c500198e
+  Realm: c2ffe0667f9c98c9ba65f608ba85684d39826145
+  RealmSwift: 5a35c1c35c3e1925e6fcd092c881d5cc4a826bff
+  RxBlocking: 5aed110d3996c0a4b07340810b9ba230fa70df5c
+  RxCocoa: e2ed092d5432e4296aa818021d27de4090ac0354
+  RxRelay: 5a18c2eb2d68326ebaf0112f80d837ae41b92b97
+  RxSwift: 915abbdfb62214aa89ccd0b194d44fb478019b27
+  SkeletonView: bb27c39857e5492136f02ee8a3aa78de55d12ecd
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  SweeterSwift: 8a90cf3156f5a1b6f39785c479369a16633b5ea9
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+  Swinject: db795b8d6d78559b25fbebb0170d2635be1176e2
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  TOInsetGroupedTableView: 4da3c3f22fe53c474f133bdb1fcc2f25b094aff6
+  URLEmbeddedView: 3fe17ae535d2b8d38c3b08ab8ba0aea5efe5d1cd
+
+PODFILE CHECKSUM: b751a66917aee811d725a72cee2e24c9935c3884
+
+COCOAPODS: 1.11.0

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KMu-86-D5R">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Base Page View Controller-->
+        <scene sceneID="kt1-J1-oOj">
+            <objects>
+                <pageViewController storyboardIdentifier="BasePageViewController" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="jZG-F0-rke" customClass="BasePageViewController" customModule="KerjaCustomer" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jpn-RR-6PO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="492.75362318840587" y="67.96875"/>
+        </scene>
+        <!--On Boarding Two View Controller-->
+        <scene sceneID="X74-jF-69q">
+            <objects>
+                <viewController storyboardIdentifier="OnBoardingTwoViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yws-ap-0eh" customClass="OnBoardingTwoViewController" customModule="KerjaCustomer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Ii-Q3-BNy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SSi-Y9-9tG">
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D5u-sj-VLL">
+                                        <rect key="frame" x="310" y="20" width="30" height="29"/>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="14"/>
+                                        <state key="normal" title="Skip">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_onboarding2" translatesAutoresizingMaskIntoConstraints="NO" id="M8s-qk-J0r">
+                                        <rect key="frame" x="43.666666666666657" y="134" width="288" height="220"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="220" id="Ef5-it-OFg"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pDm-ki-U8b">
+                                        <rect key="frame" x="27" y="639" width="321" height="55"/>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="16"/>
+                                        <state key="normal" title="Selanjutnya" backgroundImage="img_btn_rectangle_blue"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ymt-GA-uu6">
+                                        <rect key="frame" x="23" y="522" width="329" height="49"/>
+                                        <string key="text">Kelola data kandidat seperti seleksi CV, atur jadwal interview dan tes online kandidat melalui aplikasi dapat dilakukan kapan dan dimana saja</string>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kelola Data Kandidat dengan Mudah" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eNf-fl-cm2">
+                                        <rect key="frame" x="23" y="449" width="329" height="56"/>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="24"/>
+                                        <color key="textColor" red="0.99215686270000003" green="0.87450980389999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="KCBaseColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="pDm-ki-U8b" secondAttribute="trailing" constant="27" id="3zs-lm-61O"/>
+                                    <constraint firstItem="pDm-ki-U8b" firstAttribute="leading" secondItem="SSi-Y9-9tG" secondAttribute="leading" constant="27" id="7ag-QR-NpP"/>
+                                    <constraint firstAttribute="trailing" secondItem="eNf-fl-cm2" secondAttribute="trailing" constant="23" id="CQQ-Gf-aMt"/>
+                                    <constraint firstItem="pDm-ki-U8b" firstAttribute="top" secondItem="ymt-GA-uu6" secondAttribute="bottom" constant="68" id="FRD-w4-ZAn"/>
+                                    <constraint firstItem="M8s-qk-J0r" firstAttribute="centerX" secondItem="SSi-Y9-9tG" secondAttribute="centerX" id="G1w-i7-I04"/>
+                                    <constraint firstItem="eNf-fl-cm2" firstAttribute="leading" secondItem="SSi-Y9-9tG" secondAttribute="leading" constant="23" id="K0k-KL-KVF"/>
+                                    <constraint firstItem="ymt-GA-uu6" firstAttribute="centerX" secondItem="SSi-Y9-9tG" secondAttribute="centerX" id="MEl-Zd-0zG"/>
+                                    <constraint firstAttribute="trailing" secondItem="D5u-sj-VLL" secondAttribute="trailing" constant="35" id="MpJ-Fx-pa1"/>
+                                    <constraint firstItem="D5u-sj-VLL" firstAttribute="top" secondItem="SSi-Y9-9tG" secondAttribute="top" constant="20" id="Ovo-T8-dJ9"/>
+                                    <constraint firstItem="pDm-ki-U8b" firstAttribute="centerX" secondItem="SSi-Y9-9tG" secondAttribute="centerX" id="TNS-fH-2E2"/>
+                                    <constraint firstItem="ymt-GA-uu6" firstAttribute="leading" secondItem="SSi-Y9-9tG" secondAttribute="leading" constant="23" id="YwY-k7-743"/>
+                                    <constraint firstAttribute="bottom" secondItem="pDm-ki-U8b" secondAttribute="bottom" constant="40" id="aSv-KM-hav"/>
+                                    <constraint firstAttribute="trailing" secondItem="ymt-GA-uu6" secondAttribute="trailing" constant="23" id="hGS-XL-BP9"/>
+                                    <constraint firstItem="eNf-fl-cm2" firstAttribute="top" secondItem="M8s-qk-J0r" secondAttribute="bottom" constant="95" id="hql-Ek-PmI"/>
+                                    <constraint firstItem="eNf-fl-cm2" firstAttribute="centerX" secondItem="SSi-Y9-9tG" secondAttribute="centerX" id="kaz-k5-EnV"/>
+                                    <constraint firstItem="ymt-GA-uu6" firstAttribute="top" secondItem="eNf-fl-cm2" secondAttribute="bottom" constant="17" id="ucT-hg-XXB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lAX-fD-WrT"/>
+                        <color key="backgroundColor" name="KCBaseColor"/>
+                        <constraints>
+                            <constraint firstItem="SSi-Y9-9tG" firstAttribute="leading" secondItem="lAX-fD-WrT" secondAttribute="leading" id="4Kb-g6-JWY"/>
+                            <constraint firstItem="lAX-fD-WrT" firstAttribute="bottom" secondItem="SSi-Y9-9tG" secondAttribute="bottom" id="CYd-Us-RbH"/>
+                            <constraint firstItem="SSi-Y9-9tG" firstAttribute="top" secondItem="lAX-fD-WrT" secondAttribute="top" id="T3q-9K-3q9"/>
+                            <constraint firstItem="SSi-Y9-9tG" firstAttribute="trailing" secondItem="lAX-fD-WrT" secondAttribute="trailing" id="qOe-RY-UdZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="geQ-9C-zwb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2386.9565217391305" y="81.696428571428569"/>
+        </scene>
+        <!--On Boarding One View Controller-->
+        <scene sceneID="fu0-iX-hRX">
+            <objects>
+                <viewController storyboardIdentifier="OnBoardingOneViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uEB-ET-fOw" customClass="OnBoardingOneViewController" customModule="KerjaCustomer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pY6-Xg-ACh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9GV-4n-1J1">
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R11-ys-0FX">
+                                        <rect key="frame" x="310" y="20" width="30" height="29"/>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="14"/>
+                                        <state key="normal" title="Skip">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_onboarding1" translatesAutoresizingMaskIntoConstraints="NO" id="OKX-vt-0ie">
+                                        <rect key="frame" x="43.666666666666657" y="134" width="288" height="220"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="220" id="Tzo-QS-h7h"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bmn-8X-QcG">
+                                        <rect key="frame" x="27" y="639" width="321" height="55"/>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="16"/>
+                                        <state key="normal" title="Selanjutnya" backgroundImage="img_btn_rectangle_blue"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pem-UZ-wWI">
+                                        <rect key="frame" x="23" y="522" width="329" height="49"/>
+                                        <string key="text">Kerja sama antara Kerja+ dengan perusahaan terkemuka yang tersebar di Indonesia, memudahkan Anda untuk mendapatkan pekerjaan impian Anda</string>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temukan Kandidat Dari Seluruh Indonesia" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tox-wo-ly1">
+                                        <rect key="frame" x="23" y="449" width="329" height="56"/>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="24"/>
+                                        <color key="textColor" red="0.99215686274509807" green="0.87450980392156863" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="KCBaseColor"/>
+                                <constraints>
+                                    <constraint firstItem="tox-wo-ly1" firstAttribute="leading" secondItem="9GV-4n-1J1" secondAttribute="leading" constant="23" id="1v9-Mt-2sC"/>
+                                    <constraint firstItem="pem-UZ-wWI" firstAttribute="top" secondItem="tox-wo-ly1" secondAttribute="bottom" constant="17" id="5dT-zi-RVh"/>
+                                    <constraint firstItem="bmn-8X-QcG" firstAttribute="leading" secondItem="9GV-4n-1J1" secondAttribute="leading" constant="27" id="9hM-j5-9Q5"/>
+                                    <constraint firstItem="pem-UZ-wWI" firstAttribute="leading" secondItem="9GV-4n-1J1" secondAttribute="leading" constant="23" id="DOK-FP-H43"/>
+                                    <constraint firstAttribute="bottom" secondItem="bmn-8X-QcG" secondAttribute="bottom" constant="40" id="G6n-Yz-aVy"/>
+                                    <constraint firstAttribute="trailing" secondItem="pem-UZ-wWI" secondAttribute="trailing" constant="23" id="GeQ-tI-eBn"/>
+                                    <constraint firstAttribute="trailing" secondItem="tox-wo-ly1" secondAttribute="trailing" constant="23" id="LEG-7U-a6b"/>
+                                    <constraint firstItem="bmn-8X-QcG" firstAttribute="centerX" secondItem="9GV-4n-1J1" secondAttribute="centerX" id="Le6-kq-vm4"/>
+                                    <constraint firstItem="tox-wo-ly1" firstAttribute="centerX" secondItem="9GV-4n-1J1" secondAttribute="centerX" id="VeF-sF-gM1"/>
+                                    <constraint firstAttribute="trailing" secondItem="R11-ys-0FX" secondAttribute="trailing" constant="35" id="Ypa-ml-SjO"/>
+                                    <constraint firstItem="pem-UZ-wWI" firstAttribute="centerX" secondItem="9GV-4n-1J1" secondAttribute="centerX" id="dfa-eu-FUD"/>
+                                    <constraint firstItem="tox-wo-ly1" firstAttribute="top" secondItem="OKX-vt-0ie" secondAttribute="bottom" constant="95" id="gdC-nD-80H"/>
+                                    <constraint firstItem="OKX-vt-0ie" firstAttribute="centerX" secondItem="9GV-4n-1J1" secondAttribute="centerX" id="gld-oE-tkx"/>
+                                    <constraint firstAttribute="trailing" secondItem="bmn-8X-QcG" secondAttribute="trailing" constant="27" id="idg-Gw-81j"/>
+                                    <constraint firstItem="R11-ys-0FX" firstAttribute="top" secondItem="9GV-4n-1J1" secondAttribute="top" constant="20" id="o4b-pR-Nyg"/>
+                                    <constraint firstItem="bmn-8X-QcG" firstAttribute="top" secondItem="pem-UZ-wWI" secondAttribute="bottom" constant="68" id="tVh-8S-3Ut"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HOn-Vb-smF"/>
+                        <color key="backgroundColor" name="KCBaseColor"/>
+                        <constraints>
+                            <constraint firstItem="9GV-4n-1J1" firstAttribute="top" secondItem="HOn-Vb-smF" secondAttribute="top" id="2DY-8l-Jup"/>
+                            <constraint firstItem="HOn-Vb-smF" firstAttribute="trailing" secondItem="9GV-4n-1J1" secondAttribute="trailing" id="9ot-oe-ggj"/>
+                            <constraint firstItem="9GV-4n-1J1" firstAttribute="leading" secondItem="HOn-Vb-smF" secondAttribute="leading" id="A3K-Ul-mvn"/>
+                            <constraint firstItem="HOn-Vb-smF" firstAttribute="bottom" secondItem="9GV-4n-1J1" secondAttribute="bottom" id="TU9-Ac-R0Q"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bhx-Mv-1ef" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1428.985507246377" y="83.152173913043484"/>
+        </scene>
+        <!--On Boarding View Controller-->
+        <scene sceneID="VrY-fb-m4T">
+            <objects>
+                <viewController id="i1G-rA-gYZ" customClass="OnBoardingViewController" customModule="KerjaCustomer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FRk-x0-Ccg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K9i-EX-FKy">
+                                <rect key="frame" x="0.0" y="712" width="375" height="26"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="12"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.65490196079999996" green="0.65490196079999996" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="skipButtonTapped:" destination="uEB-ET-fOw" eventType="touchUpInside" id="6h1-aK-TmT"/>
+                                </connections>
+                            </button>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="7AY-O6-7R6">
+                                <rect key="frame" x="127" y="650.66666666666663" width="121.33333333333331" height="26.333333333333371"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="currentPageIndicatorTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </pageControl>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2vW-OP-g11"/>
+                        <color key="backgroundColor" name="KCBaseColor"/>
+                        <constraints>
+                            <constraint firstItem="2vW-OP-g11" firstAttribute="trailing" secondItem="K9i-EX-FKy" secondAttribute="trailing" id="5ZA-0D-iIi"/>
+                            <constraint firstItem="2vW-OP-g11" firstAttribute="bottom" secondItem="K9i-EX-FKy" secondAttribute="bottom" constant="40" id="7gt-fP-Xku"/>
+                            <constraint firstItem="K9i-EX-FKy" firstAttribute="top" secondItem="7AY-O6-7R6" secondAttribute="bottom" constant="35" id="W3N-8T-ize"/>
+                            <constraint firstItem="K9i-EX-FKy" firstAttribute="leading" secondItem="FRk-x0-Ccg" secondAttribute="leading" id="peH-iS-jpX"/>
+                            <constraint firstItem="7AY-O6-7R6" firstAttribute="centerX" secondItem="FRk-x0-Ccg" secondAttribute="centerX" id="vcs-Ue-ibl"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="HUv-13-hrs"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="pageControl" destination="7AY-O6-7R6" id="OLl-mc-rci"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Zw-t3-e35" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1441" y="846"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="TEd-Ce-cHW">
+            <objects>
+                <navigationController id="KMu-86-D5R" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dxe-HZ-gyT">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="i1G-rA-gYZ" kind="relationship" relationship="rootViewController" id="7NK-Tw-1pY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eVs-Jh-a49" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="198" y="751"/>
+        </scene>
+        <!--On Boarding Three View Controller-->
+        <scene sceneID="ZzE-zp-sOz">
+            <objects>
+                <viewController storyboardIdentifier="OnBoardingThreeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1mK-lG-I35" customClass="OnBoardingThreeViewController" customModule="KerjaCustomer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="w9e-cj-A49">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jzQ-HO-Gx7">
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_onboarding3" translatesAutoresizingMaskIntoConstraints="NO" id="uUo-GL-TYR">
+                                        <rect key="frame" x="55.666666666666657" y="150.33333333333337" width="264" height="220"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="220" id="s9X-B9-bZ8"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQY-oJ-ivN">
+                                        <rect key="frame" x="27" y="639" width="321" height="55"/>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="16"/>
+                                        <state key="normal" title="Mulai" backgroundImage="img_btn_rectangle_blue"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dengan mendapatkan kandidat terbaik, dapat meningkatkan kinerja perusahaan Anda" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1x-lP-ps0">
+                                        <rect key="frame" x="23" y="538.33333333333337" width="329" height="32.666666666666629"/>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j3p-Pd-WEx">
+                                        <rect key="frame" x="23" y="465.33333333333331" width="329" height="55.999999999999943"/>
+                                        <string key="text">Dapatkan Kandidat
+Pekerja Terbaik</string>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="24"/>
+                                        <color key="textColor" red="0.99215686270000003" green="0.87450980389999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="KCBaseColor"/>
+                                <constraints>
+                                    <constraint firstItem="uUo-GL-TYR" firstAttribute="centerX" secondItem="jzQ-HO-Gx7" secondAttribute="centerX" id="82e-bZ-0C5"/>
+                                    <constraint firstItem="C1x-lP-ps0" firstAttribute="leading" secondItem="jzQ-HO-Gx7" secondAttribute="leading" constant="23" id="9SR-hc-CbU"/>
+                                    <constraint firstItem="C1x-lP-ps0" firstAttribute="top" secondItem="j3p-Pd-WEx" secondAttribute="bottom" constant="17" id="CS3-TV-emy"/>
+                                    <constraint firstItem="j3p-Pd-WEx" firstAttribute="top" secondItem="uUo-GL-TYR" secondAttribute="bottom" constant="95" id="Dxj-kd-fQ7"/>
+                                    <constraint firstItem="oQY-oJ-ivN" firstAttribute="leading" secondItem="jzQ-HO-Gx7" secondAttribute="leading" constant="27" id="IBh-kV-DGR"/>
+                                    <constraint firstAttribute="bottom" secondItem="oQY-oJ-ivN" secondAttribute="bottom" constant="40" id="UF5-Tk-byU"/>
+                                    <constraint firstItem="oQY-oJ-ivN" firstAttribute="centerX" secondItem="jzQ-HO-Gx7" secondAttribute="centerX" id="Vsc-cQ-5SP"/>
+                                    <constraint firstAttribute="trailing" secondItem="C1x-lP-ps0" secondAttribute="trailing" constant="23" id="YNI-wF-Jjv"/>
+                                    <constraint firstAttribute="trailing" secondItem="j3p-Pd-WEx" secondAttribute="trailing" constant="23" id="aZ6-Rk-hxA"/>
+                                    <constraint firstItem="j3p-Pd-WEx" firstAttribute="leading" secondItem="jzQ-HO-Gx7" secondAttribute="leading" constant="23" id="gjo-ea-xss"/>
+                                    <constraint firstAttribute="trailing" secondItem="oQY-oJ-ivN" secondAttribute="trailing" constant="27" id="lMW-6h-g0H"/>
+                                    <constraint firstItem="j3p-Pd-WEx" firstAttribute="centerX" secondItem="jzQ-HO-Gx7" secondAttribute="centerX" id="t4r-Am-oLx"/>
+                                    <constraint firstItem="oQY-oJ-ivN" firstAttribute="top" secondItem="C1x-lP-ps0" secondAttribute="bottom" constant="68" id="uXj-VB-1WX"/>
+                                    <constraint firstItem="C1x-lP-ps0" firstAttribute="centerX" secondItem="jzQ-HO-Gx7" secondAttribute="centerX" id="zcv-bv-nPM"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="16B-bB-kGL"/>
+                        <color key="backgroundColor" name="KCBaseColor"/>
+                        <constraints>
+                            <constraint firstItem="16B-bB-kGL" firstAttribute="bottom" secondItem="jzQ-HO-Gx7" secondAttribute="bottom" id="8hg-fA-o0o"/>
+                            <constraint firstItem="jzQ-HO-Gx7" firstAttribute="top" secondItem="16B-bB-kGL" secondAttribute="top" id="9kp-y3-9qC"/>
+                            <constraint firstItem="jzQ-HO-Gx7" firstAttribute="trailing" secondItem="16B-bB-kGL" secondAttribute="trailing" id="Nge-1r-kNa"/>
+                            <constraint firstItem="jzQ-HO-Gx7" firstAttribute="leading" secondItem="16B-bB-kGL" secondAttribute="leading" id="Uxz-Bc-Z0W"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yqR-73-Aau" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3303" y="81"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.43921568630000002" green="0.79607843140000001" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
+    <resources>
+        <image name="img_btn_rectangle_blue" width="321" height="55"/>
+        <image name="img_onboarding1" width="288" height="288"/>
+        <image name="img_onboarding2" width="288.66665649414062" height="200.33332824707031"/>
+        <image name="img_onboarding3" width="264" height="264"/>
+        <namedColor name="KCBaseColor">
+            <color red="0.10980392156862745" green="0.40784313725490196" blue="0.75686274509803919" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

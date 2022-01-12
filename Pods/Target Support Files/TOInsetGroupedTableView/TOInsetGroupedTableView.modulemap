@@ -1,0 +1,6 @@
+framework module TOInsetGroupedTableView {
+  umbrella header "TOInsetGroupedTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

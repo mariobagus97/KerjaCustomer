@@ -1,0 +1,6 @@
+framework module Pods_KerjaCustomer {
+  umbrella header "Pods-KerjaCustomer-umbrella.h"
+
+  export *
+  module * { export * }
+}
